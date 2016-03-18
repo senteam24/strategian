@@ -49,6 +49,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'sen_team24',
+    'rest_framework',
 )
 
 MIDDLEWARE_CLASSES = (
