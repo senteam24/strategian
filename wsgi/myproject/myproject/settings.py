@@ -50,6 +50,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'sen_team24',
     'rest_framework',
+    'user_info',
 )
 
 MIDDLEWARE_CLASSES = (
