@@ -19,6 +19,7 @@ setup(
     install_requires=[
         'Django==1.8.4',
 	'djangorestframework',
+	'MYSQL-python',
     ],
     dependency_links=[
         'https://pypi.python.org/simple/django/'

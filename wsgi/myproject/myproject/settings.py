@@ -95,6 +95,8 @@ DATABASES = {
         'NAME': 'strategian',
 	'USER':'adminnAZPgyt',
 	'PASSWORD':'KCqXKl5Q9gg4',
+	'HOST':os.environ['OPENSHIFT_DB_HOST'],
+	'PORT':os.environ['OPENSHIFT_DB_PORT']
     }
 }
 
